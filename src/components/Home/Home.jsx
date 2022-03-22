@@ -25,7 +25,7 @@ function Home() {
   useEffect(() => {
     if (!localStorage.getItem('logged')) { window.location.href = "http://localhost:3000/" }
     dispatch(getFood())
-  }, [ ])
+  }, )
 
   function siguiente() {
     if (page / 8 < food.length / 8 - 1) {
