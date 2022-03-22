@@ -1,8 +1,7 @@
 import { ADD_MENU, DELETE_MENU, GET_FOOD, NEXT_PAGE, PREVIOUS_PAGE, RESET,IS_VEGAN, REMOVE_VEGAN, SEARCH_MENU, LOG_OUT } from "./types";
 import axios from "axios";
 
-const API_KEY= "4649f453fffd41ae95626d717b191ffd"
-
+const API_KEY= "9cdaf4e2adec412db3e325add40fd012"
 
 
 export const getFood = () => {
