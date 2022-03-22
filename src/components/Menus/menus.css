@@ -1,0 +1,45 @@
+.cardPedido {
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  border-color: transparent;
+  border-radius: 10px;
+  box-shadow: rgb(0 0 0 / 50%) 5px 5px 20px;
+  position: relative;
+  align-items: center;
+}
+
+.cardPedidoImg {
+  border-radius: 10px;
+  width: 120px;
+  margin: 10px;
+}
+.foodTitle {
+  color: #07826b;
+  font-size: 1.3rem;
+  display: inline;
+}
+
+.boton-modal {
+  font-family: "Mansalva", cursive;
+  color: #07826b;
+  font-size: 1.5rem;
+  border: 2px solid #07826b;
+}
+.boton-modal:hover {
+  background: #36e58a;
+  transform: scale(1.1);
+}
+
+.btn-danger {
+  width: 40px;
+  position: absolute;
+  top: 30px;
+  right: 10px;
+}
+
+@media (min-width: 768px) {
+  .menu-card {
+    max-width: 30rem;
+    justify-content: center;
+  }
+}

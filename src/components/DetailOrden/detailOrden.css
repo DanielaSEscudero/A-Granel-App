@@ -1,0 +1,31 @@
+.infomenu-container {
+  background-color: rgb(163, 232, 188);
+  border-radius: 15px;
+  width: 1000px;
+  min-height: 600px;
+}
+.modalmenubody {
+  width: 100%;
+  color: #07826b;
+  display: flex;
+  position: relative;
+}
+
+.tumenu {
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.infoTotales {
+  display: flex;
+  position: absolute;
+  left: 6rem;
+  bottom: 1rem;
+}
+
+@media (min-width: 768px) {
+  .info-row {
+    width: 570px;
+  }
+}

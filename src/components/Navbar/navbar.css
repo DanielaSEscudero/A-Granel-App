@@ -1,0 +1,21 @@
+.navbar {
+  background-color: black;
+  border-radius: 10px;
+  margin-top: 1rem;
+}
+.logo {
+  margin-left: 2rem;
+}
+
+.btnLogout {
+  font-family: "Mansalva", cursive;
+  font-size: 1.2rem;
+  border: 3px solid white;
+  background: #36e58a;
+  border-radius: 10px;
+  margin-right: 2rem;
+}
+.btnLogout:hover {
+  background: #36e58a;
+  transform: scale(1.1);
+}

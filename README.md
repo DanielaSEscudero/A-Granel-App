@@ -1,3 +1,24 @@
+##Challenge Alkemy Labs
+
+App de recetas y pedidos de comida.
+Uilizando API REST se hace la llamada para dar muestra de recetas de comida, especificando su tiempo de preparación, puntos de salud y precion; tambien clasificandolas si son veganas, vegetarianas o libre de glutem.
+Hay un buscardor para filtrar por palabras clave las recetas.
+Se puede hacer un pedido y ver cuanto es el costo total y el tiempo estimado de preparacion.
+
+##Dependencias Utilizadas
+
+- React JS
+- Redux
+- Axios
+- Bootstrap
+- React Router Dom
+- Sweet Alert
+- Formik
+- Framer motion
+- Api REST
+
+#
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

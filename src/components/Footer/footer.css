@@ -1,0 +1,18 @@
+.footerContainer {
+  background-color: black;
+  border-radius: 10px;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.logoRedes {
+  font-size: 3rem;
+  color: #07826b;
+  margin: 1rem;
+}
+.logoRedes:hover {
+  transform: scale(1.3);
+}
