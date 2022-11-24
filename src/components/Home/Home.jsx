@@ -1,7 +1,7 @@
 import React from 'react';
 import './home.css'
 import { Formik } from 'formik';
-import { useEffect, useState } from 'react';
+import { useState } from 'react';
 import { useDispatch, useSelector  } from 'react-redux';
 
 
@@ -22,11 +22,7 @@ function Home() {
   const [showRecipe, setShowRecipe] = useState({})
   const dispatch = useDispatch()
 
-  useEffect(() => {
-    if (!localStorage.getItem('logged')) { window.location.href = "http://localhost:3000/" }
-    dispatch(getFood())
-  }, [])
-
+  
   function siguiente() {
     if (page / 8 < food.length / 8 - 1) {
       dispatch(nextPage())

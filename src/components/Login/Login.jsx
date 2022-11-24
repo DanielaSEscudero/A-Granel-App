@@ -10,7 +10,7 @@ const Login = () => {
     //const menu = useSelector((state) => state.menu)
 
     useEffect(() => {
-        if(localStorage.getItem('logged')){window.location.href = 'http://localhost:3000/home'}
+        if(localStorage.getItem('logged')){window.location.href = 'https://agranelapp.netlify.app/home'}
     },[])
 
 
@@ -47,7 +47,7 @@ const Login = () => {
                                     window.localStorage.setItem(
                                         'logged', JSON.stringify(response.data)
                                     )
-                                    window.location.href = "http://localhost:3000/home"
+                                    window.location.href = "https://agranelapp.netlify.app/home"
                                 })
                                 .catch(error => {
                                     swal({

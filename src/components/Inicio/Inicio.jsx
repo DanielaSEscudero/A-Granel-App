@@ -14,6 +14,7 @@ const Inicio = () => {
       <div className="col-md-6">
         < Login />
       </div>
+      
     </div>
   )
 }
