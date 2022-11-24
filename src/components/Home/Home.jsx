@@ -5,7 +5,7 @@ import { useState } from 'react';
 import { useDispatch, useSelector  } from 'react-redux';
 
 
-import { capitalize, getFood, nextPage, previousPage, searchRecipe } from '../../Redux/actions';
+import { capitalize, nextPage, previousPage, searchRecipe } from '../../Redux/actions';
 import Navbar from '../Navbar/Navbar';
 import CardList from '../Cards/CardList/CardList';
 import DetailMenu from '../DetailMenu/DetailMenu';
